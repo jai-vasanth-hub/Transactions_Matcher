@@ -3,6 +3,10 @@ import pandas as pd
 from src.data_loader import load_master_data, load_bank_statement
 from src.matcher import match_transactions
 import os
+__import__('pysqlite3')
+
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 st.title("Bank Transaction Matcher")
 
