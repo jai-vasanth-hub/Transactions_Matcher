@@ -1,0 +1,7 @@
+pandas
+openpyxl
+regex
+rapidfuzz
+nltk
+streamlit
+xlrd>=2.0.1

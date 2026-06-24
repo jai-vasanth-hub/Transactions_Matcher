@@ -16,7 +16,8 @@ A safe, offline application to match bank transactions with plot owners using a 
 
 1. Install Python 3.8+
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the application: `streamlit run app.py` or `python src/main.py`
+3. Run the application locally: `streamlit run bank_transaction_matcher/app.py`
+4. For Streamlit Cloud, the repository root entry point is `streamlit_app.py`
 
 ## Usage
 
